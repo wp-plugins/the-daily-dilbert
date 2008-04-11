@@ -1,7 +1,7 @@
 === The Daily Dilbert ===
 Contributors: greftek
 Donate link: http://www.greftek.net/blog/donate/
-Tags: funny, comic, widget
+Tags: funny, comic, widget, sidebar
 Requires at least: 2.1.0
 Tested up to: 2.3.3
 Stable tag: 1.0
