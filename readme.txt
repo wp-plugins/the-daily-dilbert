@@ -3,8 +3,8 @@ Contributors: greftek
 Donate link: http://www.greftek.net/blog/donate/
 Tags: funny, comic, widget, sidebar
 Requires at least: 2.1.0
-Tested up to: 2.3.3
-Stable tag: 1.0
+Tested up to: 2.5
+Stable tag: 1.0.1
 
 A wordpress implementation of the Daily Dilbert widget as published by United Feature Syndicate, Inc. (http://widget.dilbert.com/)
 
@@ -46,3 +46,11 @@ Like any widget in your sidebar you can modify presentation by using the ID "dil
 == Screenshots ==
 
 There are none
+
+== Change Log ==
+
+1.0 
+- Initial release
+
+1.0.1 
+- Tested and tweaked for Wordpress 2.5
