@@ -3,7 +3,7 @@
 Plugin Name: grf-Dilbert
 Plugin URI: http://www.greftek.net/software/grf-dilbert/
 Description: A Dilbert widget implementation for Wordpress.
-Version: 1.0.0
+Version: 1.0.1
 Author: GrefTek
 Author URI: http://www.greftek.net/blog/
 
