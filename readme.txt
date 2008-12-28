@@ -3,8 +3,8 @@ Contributors: greftek
 Donate link: http://www.greftek.net/blog/donate/
 Tags: funny, comic, widget, sidebar
 Requires at least: 2.1.0
-Tested up to: 2.5
-Stable tag: 1.0.1
+Tested up to: 2.7.3
+Stable tag: 1.0.2
 
 A wordpress implementation of the Daily Dilbert widget as published by United Feature Syndicate, Inc. (http://widget.dilbert.com/)
 
@@ -19,9 +19,10 @@ Click on the options button to add a custom title.
 In order to get this puppy to work follow the steps described here:
 
 1. Uncompress the downloaded archive in [WordPress install root]/wp-content/plugins.
-2. Activate the plugin in your WordPress plugins control panel.
-3. Go to the "Presentation" section, and choose "Widgets".
-4. Drag and drop the "The Daily Dilbert"-widget into the desired position in your sidebar.
+2. Activate the plugin in your WordPress plugins control panel. The plugin should show up as 'grf-Dilbert' in the list of inactive plugins. Just click the 'Activate'-link on the right.
+3. Go to the "Appearance" section, and select the "Widgets"-subsection.
+4. Add the "The Daily Dilbert"-widget to the sidebar. Do this by clicking on 'Add'-link behind the item named 'The Daily Dilbert'.
+5. Position the widget within the sidebar. You can simply do this by dragging the 'The Daily Dilbert'-entry on the right side of the panel and and dropping it between the other widgets where you want to have it positioned.
 5. If desired, enter a custom widget title by selecting the "Configure"-button and changing the title.
 6. Click on the "Save Changes"-button on the page. 
 7. Edit your styles.css of your active template to tweak the presentation.
@@ -43,6 +44,16 @@ Like any widget in your sidebar you can modify presentation by using the ID "dil
 
 > li#dilbert { /* your css directives here, eg: "text-align: center;" */ }
 
+= How come in step 2 'grf-dilbert' is already in the activated plugins? =
+
+Because you were doing an upgrade and forgot to disable the plugin before you did so, you naughty boy/girl.
+
+= This plugin is cool, can you make something similar for ...? =
+
+If you have requests feel free to mail them to me (contact me through my blog: http://www.greftek.net/blog). 
+
+Please do take into account that a comic needs to have some sort of feed in order to make such a plugin. It can be done without a feed (with scraping), but such a technique is high maintenance and prone to breaking. Aside from that not every artist appreciates such methods, so I don't make them. 
+
 == Screenshots ==
 
 There are none
@@ -54,3 +65,6 @@ There are none
 
 1.0.1 
 - Tested and tweaked for Wordpress 2.5
+
+1.0.2 
+- Tested for Wordpress 2.7.x and adjusted installation instructions for new admin interface (thank you for pointing this out ;))
